@@ -1,3 +1,5 @@
+package de.ricardo;
+
 public class Main {
     public static void main(String[] args) {
         printCalendarForMonth("January", 31, 0);
@@ -17,6 +19,7 @@ public class Main {
     public static void printCalendarForMonth(String monthName, int daysInMonth, int offsetDays) {
         System.out.println(monthName);
         System.out.println("Mo Tu We Th Fr Sa Su");
+
 
         for (int i = 0; i < offsetDays; i++) {
             System.out.print("   ");
